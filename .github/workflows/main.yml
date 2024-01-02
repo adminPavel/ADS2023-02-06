@@ -14,7 +14,7 @@ jobs:
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v14.6
+        uses: tj-actions/changed-files@v41
 
       - name: Check changed files
         uses: veceluxa/action-control-changes@v1.2
